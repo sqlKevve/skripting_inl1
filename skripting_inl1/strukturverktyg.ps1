@@ -38,7 +38,7 @@ function MappFunktion {
     }
 }
 
-$mappNamn = Read-Host "Ange namn på huvudmappen: "
+$mappNamn = Read-Host "Ange namn på huvudmappen"
 
 # anrop av funktionen
 MappFunktion -huvudMappNamn $mappNamn
